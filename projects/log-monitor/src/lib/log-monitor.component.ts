@@ -1,6 +1,7 @@
 import {
     AfterViewInit,
     ChangeDetectionStrategy,
+    ChangeDetectorRef,
     Component,
     ElementRef,
     Input, NgZone,
@@ -18,7 +19,8 @@ import { delay } from 'rxjs/operators';
 @Component({
     selector: 'log-monitor',
     templateUrl: './log-monitor.component.html',
-    styleUrls: ['./log-monitor.component.scss']
+    styleUrls: ['./log-monitor.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class LogMonitorComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
 
@@ -36,14 +38,15 @@ export class LogMonitorComponent implements OnInit, OnDestroy, OnChanges, AfterV
 
     private _subr: Subscription;
 
-    constructor(private zone: NgZone) { }
+    constructor(private zone: NgZone, private cd: ChangeDetectorRef) { }
 
     ngOnInit() {
         if (this.logStream) {
             this._subr = this.logStream
                 .pipe(delay(this.delay))
                 .subscribe(a => {
-                    this._history.push(normalizeLogMessage(a));
+                    this._history = [...this._history, normalizeLogMessage(a)];
+                    this.cd.detectChanges();
                     this.zone.run(() => {
                         setTimeout(() => this.scrollToBottom());
                     });
