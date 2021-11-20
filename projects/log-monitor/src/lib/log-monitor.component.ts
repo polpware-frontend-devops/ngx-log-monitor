@@ -53,7 +53,9 @@ export class LogMonitorComponent implements OnInit, OnDestroy, OnChanges, AfterV
     }
 
     ngOnDestroy() {
-        this._subr && this._subr.unsubscribe();
+        if (this._subr) {
+            this._subr.unsubscribe();
+        }
     }
 
     ngOnChanges(changes: SimpleChanges) {

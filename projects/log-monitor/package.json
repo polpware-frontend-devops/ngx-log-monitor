@@ -12,7 +12,7 @@
   "contributors": ["Aslan VATSAEV"],
   "homepage": "https://github.com/avatsaev/ngx-log-monitor",
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0"
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0"
   }
 }
