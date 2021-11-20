@@ -7,7 +7,7 @@
 >
   <span
     class="msg-item {{'msg-'+(log.type.toLowerCase())}}"
-    *ngFor="let log of history"
+    *ngFor="let log of _history"
     [ngClass]="{'animated': animated}"
   >
     <span *ngIf="icons" [ngSwitch]="log.type">
