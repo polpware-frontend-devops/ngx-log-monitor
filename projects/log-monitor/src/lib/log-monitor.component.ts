@@ -18,8 +18,7 @@ import { delay } from 'rxjs/operators';
 @Component({
     selector: 'log-monitor',
     templateUrl: './log-monitor.component.html',
-    styleUrls: ['./log-monitor.component.scss'],
-    changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrls: ['./log-monitor.component.scss']
 })
 export class LogMonitorComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
 
