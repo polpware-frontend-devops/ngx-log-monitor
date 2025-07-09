@@ -1,3 +1,11 @@
+## 15.0.0 (July 09, 2025)
+  - Update dependencies for Angular 15
+  - Update for Angular 15
+  - Toolchain
+  - Publish Version 14
+  - k
+  - Bump version
+
 ## 14.0.0 (July 09, 2025)
 
 
