@@ -140,7 +140,6 @@
       }
     }
   },
-  "defaultProject": "ngx-log-monitor",
   "cli": {
     "analytics": "3f0d1317-efe8-4b13-8413-5ba24e766b2b"
   }
