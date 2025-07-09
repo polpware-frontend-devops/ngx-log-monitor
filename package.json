@@ -9,7 +9,8 @@
     "deploy-lib": "ng build --configuration production log-monitor && cp README.md dist/log-monitor &&  cd dist/log-monitor && npm publish",
     "deploy-demo": "ng build --configuration production && cd dist/ngx-log-monitor && surge -p ./ -d ngx-log-monitor.surge.sh",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "bump": "gulp bump"      
   },
   "private": true,
   "dependencies": {
@@ -46,7 +47,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.5.4",
-      "tslint": "~6.1.0",
+    "tslint": "~6.1.0",
     "gulp": "^5.0.1",
     "gulp-bump": "^3.2.0",
     "gulp-ignore": "^3.0.0"
