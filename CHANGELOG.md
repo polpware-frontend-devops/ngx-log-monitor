@@ -1,0 +1,65 @@
+## 0.1.0 (July 09, 2025)
+  - Update dependencies
+  - Configure toolchain
+  - Set up toolchain
+  - Update for best practice
+  - Update for Angular 14
+  - Update for Angular 13
+  - Update for Angular 12
+  - Update for Angular 11
+  - k
+  - Update libs
+  - Update for Angular 10
+  - Install libs
+  - Install deployment submodule
+  - Switch back to push dependency for performance
+  - Clean wrong pub
+  - Fix test and bugs
+  - Script for private pub
+  - New publish
+  - run lint
+  - Upgrade to Angular 9
+  - Remove outdated http module
+  - Switch to use yarn
+  - Merge pull request #13 from avatsaev/angular8
+  - fix: angular 8 refactor
+  - fix: angular 8 update
+  - Merge pull request #8 from avatsaev/dependabot/npm_and_yarn/lodash.mergewith-4.6.2
+  - Merge pull request #5 from avatsaev/dependabot/npm_and_yarn/fstream-1.0.12
+  - Merge pull request #3 from avatsaev/dependabot/npm_and_yarn/js-yaml-3.13.1
+  - Merge pull request #4 from avatsaev/dependabot/npm_and_yarn/mixin-deep-1.3.2
+  - build(deps): bump lodash.mergewith from 4.6.1 to 4.6.2
+  - build(deps): bump fstream from 1.0.11 to 1.0.12
+  - build(deps): bump js-yaml from 3.11.0 to 3.13.1
+  - build(deps): bump mixin-deep from 1.3.1 to 1.3.2
+  - Merge pull request #6 from avatsaev/dependabot/npm_and_yarn/tar-2.2.2
+  - Merge pull request #7 from avatsaev/dependabot/npm_and_yarn/url-parse-1.4.7
+  - Merge pull request #9 from avatsaev/dependabot/npm_and_yarn/extend-3.0.2
+  - Merge pull request #10 from avatsaev/dependabot/npm_and_yarn/handlebars-4.4.3
+  - Merge pull request #12 from barryam3/closure
+  - Fix closure compiler renaming for ngOnChanges
+  - build(deps): bump extend from 3.0.1 to 3.0.2
+  - build(deps): bump handlebars from 4.0.11 to 4.4.3
+  - build(deps): bump url-parse from 1.4.0 to 1.4.7
+  - build(deps): bump tar from 2.2.1 to 2.2.2
+  - Merge pull request #11 from avatsaev/dependabot/npm_and_yarn/webpack-dev-server-3.8.2
+  - build(deps): bump webpack-dev-server from 3.1.4 to 3.8.2
+  - Merge pull request #2 from kyosho-/master
+  - modify README.md
+  - modify README.md
+  - feat: add metadata to package json
+  - fix: update demo app
+  - Update README.md
+  - Merge pull request #1 from avatsaev/add-license-1
+  - Create LICENSE
+  - feat: update example app
+  - feat: update example app
+  - feat: update readme
+  - Merge branch 'master' of github.com:avatsaev/ngx-log-monitor
+  - feat: update readme
+  - Update README.md
+  - feat: update readme
+  - feat: added more configuration and themes
+  - feat: simple log monitor
+  - initial commit
+
