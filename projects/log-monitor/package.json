@@ -1,6 +1,6 @@
 {
   "name": "ngx-log-monitor",
-  "version": "15.0.0",
+  "version": "16.0.0",
   "author": "Aslan VATSAEV (@avatsaev)",
   "keywords": ["ngx", "angular", "logs", "log monitor"],
   "license": "MIT",
