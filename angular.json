@@ -141,9 +141,9 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/log-monitor/ng-package.prod.json"
-            ,              "tsConfig": "projects/log-monitor/tsconfig.lib.prod.json"
-}
+              "project": "projects/log-monitor/ng-package.prod.json",
+              "tsConfig": "projects/log-monitor/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -169,5 +169,8 @@
       }
     }
   },
-  "defaultProject": "ngx-log-monitor"
+  "defaultProject": "ngx-log-monitor",
+  "cli": {
+    "analytics": "3f0d1317-efe8-4b13-8413-5ba24e766b2b"
+  }
 }
