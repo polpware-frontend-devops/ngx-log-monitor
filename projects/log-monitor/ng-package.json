@@ -3,6 +3,6 @@
   "dest": "../../dist/log-monitor",
   "deleteDestPath": false,
   "lib": {
-    "entryFile": "src/index.ts"
+    "entryFile": "src/public-api.ts"
   }
 }
