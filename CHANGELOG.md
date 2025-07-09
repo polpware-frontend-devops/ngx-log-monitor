@@ -1,3 +1,9 @@
+## 16.0.0 (July 09, 2025)
+  - Update dependencies for Angular 16
+  - Update for Angular 16
+  - Publish Version 15
+  - Bump to Version 15
+
 ## 15.0.0 (July 09, 2025)
   - Update dependencies for Angular 15
   - Update for Angular 15
