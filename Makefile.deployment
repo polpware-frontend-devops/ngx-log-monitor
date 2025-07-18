@@ -24,6 +24,13 @@ prepare-ngx17:
 	(git checkout ngx17 || (git checkout -b ngx17 && git push -u origin ngx17)) && \
 	git pull
 
+prepare-branch:
+	@echo "--> Ensuring branch $(Branch) exists and is tracking the remote..."
+	cd $(DeployTarget) && \
+	(git checkout $(Branch) || (git checkout -b $(Branch) && git push -u origin $(Branch))) && \
+	git pull
+
+
 build:
 	echo "Build ..."
 	ng build $(BuildTarget)
@@ -61,4 +68,4 @@ push:
 deploy: build copy push
 
 
-.PHONY: build copy push doc deploy
+.PHONY: build copy push doc deploy prepare-branch
