@@ -1,6 +1,6 @@
 {
   "name": "angular-log-monitor",
-  "version": "18.0.0",
+  "version": "19.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
