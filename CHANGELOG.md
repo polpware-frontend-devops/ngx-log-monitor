@@ -1,3 +1,11 @@
+## 18.0.0 (July 17, 2025)
+  - Update deps
+  - Update deps
+  - Update to Angular 18
+  - Update toolchain
+  - Publish Version 17
+  - Bump to Version 17
+
 ## 17.0.0 (July 09, 2025)
   - Update dependencies for Angular 17
   - Update for Angular 17
