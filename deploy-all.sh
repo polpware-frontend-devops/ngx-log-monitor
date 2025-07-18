@@ -35,7 +35,7 @@ do
     # Conditionally execute the deployment commands
     if [ "$DRY_RUN" = true ]; then
         # Dry Run: Only prepare and build
-        make prepare-$TARGET Project=$lib && make build Project=$lib
+        make prepare-branch Branch=$TARGET Project=$lib && make build Project=$lib
     else
         # Full Run: Prepare, build, copy, and push
         make prepare-$TARGET Project=$lib && \
