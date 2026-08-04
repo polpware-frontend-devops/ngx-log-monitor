@@ -23,8 +23,8 @@
     "@angular/platform-browser-dynamic": "^19.2.14",
     "@angular/router": "^19.2.14",
     "core-js": "^3.4.7",
-    "rxjs": "^6.5.3",
-    "tslib": "^2.0.0",
+    "rxjs": "^7.4.0",
+    "tslib": "^2.3.0",
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
